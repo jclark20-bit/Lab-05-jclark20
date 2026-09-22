@@ -1,0 +1,41 @@
+1.The loop condition continues if number is outside the value range
+1.B it skips 0 times, 5 is already valid so the whole while loop is skipped 
+1.c while loop works because we dont know how many times a user is going to enter a valid number so the loop will keep 
+going until a valid one is entered 
+
+2. the sentinent value would be 0
+2.b the sum should be 0 for int sum
+2.c it shouldnt be used because 0 is being used to tell the program when to stop, not as a placeholder for sum 
+2.d if the first number entered is 0, the program will not do a while loop and print 0
+
+3. the initialization is i = 5
+3.b the condition is 1<= 50 
+3.c the update is i = i + 5
+3.d 10 iterations happen in this 
+3.e the value of the loop control variable will be 55 because <=50, cant go over 
+
+4. 5 loop iterations happen
+4.b condiiton gets evaluated 5 times 
+4.c the even numbers make the expression true, 2,4 would make it true
+
+
+5. sum need to be initialized because it needs to start somehwere to add numbers to it, so we start at 0 
+5.b the final value of sum would be 15 if N = 5
+5.c I is the variable that controls the loop
+5.d the variable sum is the accumulator .
+
+6. going to just put my corrections for the codes here for part 6
+6.a i-- is wrong since its making it smaller since its --, numbers are small means condiiton is always true, so
+fix it with ++ so it goes up instead of down
+6b it prints out 1 forever because count doesnt change, so it stays at 1, add count++ at the end so it goes by 1
+6.c the code executes 0 times becuase the loop starts with i = 1, but its asking for i >=5 , and thats false
+so the loop doesnt start change it to <= 5 and it will work, outpt should be  1 2 3 4 5
+
+7. for would be my choice becuase we know the starting ending and update since its printing out 0 100 
+7.keep asking user valid score, id do while since we dont know how many we need 
+7.c read values until sentinel -1 would be while since output is unknown
+7.d repeat 20 times would be for because we know how many times we want to repeat it
+7.e print every even number 2 50, would be for because we know the range and can update by 2 everytime
+
+
+
